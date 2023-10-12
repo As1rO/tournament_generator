@@ -1,0 +1,43 @@
+{
+  "name": "tournament_generator",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.3",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.49.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.17.0",
+    "lint-staged": "^14.0.1",
+    "postcss": "^8.4.21",
+    "postcss-html": "^1.5.0",
+    "postcss-preset-env": "^9.2.0",
+    "prettier": "^3.0.3",
+    "prettier-eslint-cli": "^7.1.0",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.2.2",
+    "stylelint": "^15.6.1",
+    "stylelint-config-recommended-scss": "^11.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-config-standard-scss": "^9.0.0",
+    "vite": "^4.4.11"
+  }
+}

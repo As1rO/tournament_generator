@@ -1,0 +1,7 @@
+{
+    "*.js": ["eslint --fix"],
+    "*.vue": ["eslint --fix", "stylelint --fix '**/*.vue'"],
+    "*.{js,vue,css,scss,json}": [
+      "prettier-eslint --no-semi --single-quote --print-width 80 --write"
+    ]
+  }
