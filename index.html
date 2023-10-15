@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
-  </head>
-
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-
-  </body>
-
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="container-settings">
+                <button id="start" type="button" disabled>Start</button>
+                <select name="tournament" id="tournament">
+                    <option value="" selected="selected" hidden="hidden">number of participants</option>
+                    <option>4</option>
+                    <option>8</option>
+                    <option>16</option>
+                    <option>32</option>
+                </select>
+            </div>
+            <div class="container-tournament hidden"></div>
+            <div class="container-history hidden"></div>
+        </div>
+    </main>
+</body>
 </html>
